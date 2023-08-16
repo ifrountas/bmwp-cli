@@ -78,26 +78,26 @@ class BMWP_Generate_Posts {
         $start_time = microtime(true);
 
         $bond_movies = array(
-            'Dr. No and the Magical Biosphere' => 'Sean Connery',
-            'From Russia with Love to the Whole World' => 'Sean Connery',
-            'Goldfinger is taking away the most beatiful girl in the room' => 'Sean Connery',
-            'Thunderball is like Thundercats but for Dragonball' => 'Sean Connery',
-            'You Only Live Twice so you have to take your life in your hands' => 'Sean Connery',
-            'On Her Majesty\'s Secret Service for you and me only' => 'George Lazenby',
-            'Diamonds Are Forever But Please Don\'t be so idiot that you really believe in Diamonds' => 'Sean Connery',
-            'Live and Let Die the COVID-19 era for ever' => 'Roger Moore',
-            'The Man with the Golden Gun is Hunting Down the Room' => 'Roger Moore',
-            'The Spy Who Loved Me and She Became My Wife Few Years or Decades Later' => 'Roger Moore',
-            'Moonraker Takes it all!' => 'Roger Moore',
-            'For Your Eyes Only my Dear Cecilia' => 'Roger Moore',
-            'Octopussy Is My Teacher. Please Don\'t Watch Too Much Netflix' => 'Roger Moore',
-            'A View to a Kill All The World Because One Person Is Never Enough' => 'Roger Moore',
-            'The Living Daylights Are So Wonderfull to Watch Them' => 'Timothy Dalton',
-            'Licence to Kill An Alltime James Bond Movie' => 'Timothy Dalton',
-            'GoldenEye is watching you my little lady' => 'Pierce Brosnan',
-            'Tomorrow Never Dies' => 'Pierce Brosnan',
-            'The World Is Not Enough For Idiots Like Trump' => 'Pierce Brosnan',
-            'Die Another Day Because Today Panathinaikos is Playing with Marseille for Champions League' => 'Pierce Brosnan'
+            'Dr. No and the Enchanted Realm of Mysteries' => 'Sean Connery',
+            'From Russia: A Tale of Global Affection and Intrigue' => 'Sean Connery',
+            'Goldfinger\'s Enchanting Muse: A Dance of Destiny' => 'Sean Connery',
+            'Thunderball meets Dragonball: An Unexpected Collision of Worlds' => 'Sean Connery',
+            'You Only Live Twice: The Chronicles of Fate and Fortune' => 'Sean Connery',
+            'In Her Majesty\'s Exclusive Service: Shadows and Secrets' => 'George Lazenby',
+            'Diamonds: The Eternal Allure and the Quest for Timelessness' => 'Sean Connery',
+            'Live, Thrive, and Conquer: Leaving the Shadows of the Past Behind' => 'Roger Moore',
+            'The Man with the Golden Ambition: A Journey of Power and Pride' => 'Roger Moore',
+            'The Spy Who Became My Heart\'s Compass' => 'Roger Moore',
+            'Moonraker\'s Quest: Beyond the Stars and Dreams' => 'Roger Moore',
+            'For Your Gaze Alone, Cecilia: A Whispered Secret' => 'Roger Moore',
+            'Octopussy: Life Lessons Beyond the Screen of Netflix' => 'Roger Moore',
+            'A Panoramic View to Cherish and Protect the World' => 'Roger Moore',
+            'Basking in the Radiant Living Daylights' => 'Timothy Dalton',
+            'License to Thrill: An Iconic Tale of Danger and Desire' => 'Timothy Dalton',
+            'GoldenEye\'s Admiration: The Silent Stare of Fate' => 'Pierce Brosnan',
+            'Tomorrow\'s Mysteries: A Dance with the Unknown' => 'Pierce Brosnan',
+            'The World in Its Magnificent Expanse: A Tale of Unity' => 'Pierce Brosnan',
+            'Cherish Today\'s Game, for Tomorrow Promises a New Challenge' => 'Pierce Brosnan'
         );
 
         // Loop through movies and create categories based on the actor if not already exists.
