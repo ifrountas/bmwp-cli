@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Bake My WP CLI Commands
  * Description:       A curated list of WP-CLI commands crafted by Bake My WP to simplify your website management experience
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Bake My WP
  * Author URI:        https://bakemywp.com
  * License:           GPL-2.0+
