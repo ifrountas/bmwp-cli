@@ -3,7 +3,7 @@ A curated list of WP-CLI commands crafted by Bake My WP to simplify your website
 
 Discover the power of four robust WP-CLI commands bundled in this compact plugin, each tailored to streamline your website management tasks.
 
-❤️ We highly advise installing this plugin in the 'mu-plugins' folder for optimal performance. Please remember to uninstall it when it's no longer required, as anyone with server access could potentially export your site.
+❤️ We highly advise installing this plugin in the 'mu-plugins' folder for optimal performance. <b>Please remember to uninstall it when it's no longer required, as anyone with server access could potentially export your site</b>.
 
 ## > wp bmwp-posts
 Use this command to create dummy content for your site. It crafts 20 unique posts, blending random titles with iconic James Bond movies, categorizes each post under a famed actor, and adorns them with a standard featured image.
