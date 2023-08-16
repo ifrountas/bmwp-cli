@@ -30,7 +30,7 @@ Check if the plugins WPForms (both pro and lite), WP Mail SMTP, Perfmatters are 
 ## > wp bmwp-onboard-site
 
 #### OPTIONS
-[--dev=<true>]
+[--dev=<true|false>]
 : Check if is development mode and hide the site from Seach Engines.
 
 A sequence of operations to optimize your setup:
