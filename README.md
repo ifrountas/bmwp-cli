@@ -11,6 +11,19 @@ Use this command to create dummy content for your site. It crafts 20 unique post
 ## > wp bmwp-import-products
 Use this command to create dummy content for your WooCommerce store. It crafts 20 unique products, 15 simple and 5 variable products.
 
+## >  wp bmwp-delete-posts --post_type=product --permanent
+
+#### OPTIONS
+[--post_type=<post_type>]
+: The post type to delete posts. Defaults to 'post'.
+
+[--permanent]
+: Whether to permanently delete the posts.
+
+#### EXAMPLES
+wp bmwp-delete-posts --post_type=product
+wp bmwp-delete-posts --post_type=product --permanent
+
 ## > wp bmwp-fix-plugin-settings
 Check if the plugins WPForms (both pro and lite), WP Mail SMTP, Perfmatters are installed and activated and update the options based on our settings.
 
