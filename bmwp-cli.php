@@ -461,7 +461,7 @@ class BMWP_Site_Offload_Command {
      *
      * ## EXAMPLES
      *
-     *     wp bmwp-offload
+     *     wp bmwp-offload-site
      */
     public function __invoke( $args, $assoc_args ) {
 
@@ -518,7 +518,7 @@ class BMWP_Site_Export_Command {
      *
      * ## EXAMPLES
      *
-     *     wp bmwp-export
+     *     wp bmwp-export-site
      */
     public function __invoke( $args, $assoc_args ) {
 
@@ -532,7 +532,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
     WP_CLI::add_command( 'bmwp-import-posts',        'BMWP_Generate_Posts' );
     WP_CLI::add_command( 'bmwp-import-products',     'BMWP_Generate_Woo_Products' );
     WP_CLI::add_command( 'bmwp-fix-plugin-settings', 'BMWP_Site_Settings_Command' );
-    WP_CLI::add_command( 'bmwp-onboard-settings',    'BMWP_Site_Onboard_Command' );
+    WP_CLI::add_command( 'bmwp-onboard-site',        'BMWP_Site_Onboard_Command' );
     WP_CLI::add_command( 'bmwp-offload-site',        'BMWP_Site_Offload_Command' );
     WP_CLI::add_command( 'bmwp-export-site',         'BMWP_Site_Export_Command' );
 }
