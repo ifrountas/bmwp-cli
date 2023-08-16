@@ -42,7 +42,7 @@ A sequence of operations to optimize your setup:
 5. Update the site email with our default.
 6. Check and delete Twenty Twenty-One theme if not active
 7. Check and delete Twenty Twenty-Two theme if not active
-8. Check for 'dev' flag and update 'blog_public' option
+8. Check for 'dev' flag and update Search Engine visibility option to block robots from crawling your site.
 
 ## > wp bmwp-offload-site
 Enhance your site pre-offload preparations:
