@@ -11,7 +11,7 @@ Use this command to create dummy content for your site. It crafts 20 unique post
 ## > wp bmwp-import-products
 Use this command to create dummy content for your WooCommerce store. It crafts 20 unique products, 15 simple and 5 variable products.
 
-## >  wp bmwp-delete-posts --post_type=product --permanent
+## >  wp bmwp-delete-posts
 
 #### OPTIONS
 [--post_type=<post_type>]
