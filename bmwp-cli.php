@@ -231,7 +231,7 @@ class BMWP_Site_Onboard_Command {
         $current_email = get_option('admin_email');
         if ($current_email !== 'alerts@bakemywp.com') {
             update_option('admin_email', 'alerts@bakemywp.com');
-            WP_CLI::log(WP_CLI::colorize("%gStep → 5: Site email changed to alerts@bakemywp.com..%n"));
+            WP_CLI::log(WP_CLI::colorize("%gStep → 5: Site email changed to alerts@bakemywp.com.%n"));
         } else {
             WP_CLI::log(WP_CLI::colorize("%yStep → 5: Site email is already set to alerts@bakemywp.com.%n"));
         }
