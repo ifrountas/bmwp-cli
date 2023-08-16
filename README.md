@@ -28,6 +28,11 @@ Use this command to create dummy content for your WooCommerce store. It crafts 2
 Check if the plugins WPForms (both pro and lite), WP Mail SMTP, Perfmatters are installed and activated and update the options based on our settings.
 
 ## > wp bmwp-onboard-site
+
+#### OPTIONS
+[--dev=<true>]
+: Check if is development mode and hide the site from Seach Engines.
+
 A sequence of operations to optimize your setup:
 
 1. Back up the database.
@@ -35,6 +40,9 @@ A sequence of operations to optimize your setup:
 3. Convert HTTP links to HTTPS (coupled with a redis cache flush if alterations occur).
 4. Adjust the time zone to Europe/Athens.
 5. Update the site email with our default.
+6. Check and delete Twenty Twenty-One theme if not active
+7. Check and delete Twenty Twenty-Two theme if not active
+8. Check for 'dev' flag and update 'blog_public' option
 
 ## > wp bmwp-offload-site
 Enhance your site pre-offload preparations:
