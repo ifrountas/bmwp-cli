@@ -5,10 +5,16 @@ Discover the power of four robust WP-CLI commands bundled in this compact plugin
 
 ❤️ We highly advise installing this plugin in the 'mu-plugins' folder for optimal performance. <b>Please remember to uninstall it when it's no longer required, as anyone with server access could potentially export your site</b>.
 
-## > wp bmwp-posts
+## > wp bmwp-import-posts
 Use this command to create dummy content for your site. It crafts 20 unique posts, blending random titles with iconic James Bond movies, categorizes each post under a famed actor, and adorns them with a standard featured image.
 
-## > wp bmwp-onboard
+## > wp bmwp-import-products
+Use this command to create dummy content for your WooCommerce store. It crafts 20 unique products, 15 simple and 5 variable products.
+
+## > wp bmwp-fix-plugin-settings
+Check if the plugins WPForms (both pro and lite), WP Mail SMTP, Perfmatters are installed and activated and update the options based on our settings.
+
+## > wp bmwp-onboard-site
 A sequence of operations to optimize your setup:
 
 1. Back up the database.
@@ -17,7 +23,7 @@ A sequence of operations to optimize your setup:
 4. Adjust the time zone to Europe/Athens.
 5. Update the site email with our default.
 
-## > wp bmwp-offload
+## > wp bmwp-offload-site
 Enhance your site pre-offload preparations:
 
 1. Perform a database backup.
@@ -27,5 +33,5 @@ Enhance your site pre-offload preparations:
 5. Erase the formerly deactivated plugins.
 6. Ready a database backup for seamless client handoff.
 
-## > wp bmwp-export
+## > wp bmwp-export-site
 Empower your clients with this command. It meticulously prepares a comprehensive backup, priming the site for a smooth transition to an alternative host."
