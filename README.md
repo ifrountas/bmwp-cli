@@ -21,8 +21,8 @@ Use this command to create dummy content for your WooCommerce store. It crafts 2
 : Whether to permanently delete the posts.
 
 #### EXAMPLES
-wp bmwp-delete-posts --post_type=product
-wp bmwp-delete-posts --post_type=product --permanent
+1. wp bmwp-delete-posts --post_type=product
+2. wp bmwp-delete-posts --post_type=product --permanent
 
 ## > wp bmwp-fix-plugin-settings
 Check if the plugins WPForms (both pro and lite), WP Mail SMTP, Perfmatters are installed and activated and update the options based on our settings.
