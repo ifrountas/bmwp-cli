@@ -392,7 +392,7 @@ class BMWP_Site_Onboard_Command {
      *
      * ## EXAMPLES
      *
-     *     wp bmwp-onboard
+     *     wp bmwp-onboard-site
      */
     public function __invoke( $args, $assoc_args ) {
 
