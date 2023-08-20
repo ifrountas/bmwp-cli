@@ -23,7 +23,7 @@
                 'name' => 'Our News',
                 'slug' => 'our-news'
                 ));
-                WP_CLI::log( WP_CLI::colorize( "%gStep → 2: Default category renamed to Blog.%n" ) );
+                WP_CLI::log( WP_CLI::colorize( "%gStep → 2: Default category renamed to Our News.%n" ) );
             } else {
                 WP_CLI::log( WP_CLI::colorize( "%yStep → 2: Default category is already named: " . $cat->name . ".%n" ) );
             }
