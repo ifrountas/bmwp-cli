@@ -19,7 +19,7 @@
 
         public static function generate_lorem_ipsum() {
             // API endpoint to generate random Lorem Ipsum
-            $endpoint = 'https://loripsum.net/api/1/medium/plaintext';
+            $endpoint = 'https://loripsum.net/api/6/medium/headers/ul/link';
 
             // Fetch content from API
             $response = wp_remote_get($endpoint);
