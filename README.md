@@ -1,7 +1,7 @@
 # Bake My WP CLI Commands
 A curated list of WP-CLI commands crafted by Bake My WP to simplify your website management experience
 
-Discover the power of four robust WP-CLI commands bundled in this compact plugin, each tailored to streamline your website management tasks.
+Discover the power of our robust WP-CLI commands bundled in this compact plugin, each tailored to streamline your website management tasks.
 
 ❤️ We highly advise installing this plugin in the 'mu-plugins' folder for optimal performance. <b>Please remember to uninstall it when it's no longer required, as anyone with server access could potentially export your site</b>.
 
