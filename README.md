@@ -55,4 +55,4 @@ Enhance your site pre-offload preparations:
 6. Ready a database backup for seamless client handoff.
 
 ## > wp bmwp-export-site
-Empower your clients with this command. It meticulously prepares a comprehensive backup, priming the site for a smooth transition to an alternative host."
+Empower your clients with this command. It meticulously prepares a comprehensive backup, priming the site for a smooth transition to an alternative host.
